@@ -1,0 +1,104 @@
+
+.instFieldEdit {
+    border: 1px solid lightGray;
+}
+
+.instField {
+	width: 100%;
+	display: block;
+    margin: 5px;
+    padding: 2px;
+}
+
+.sequencerNum {
+    height: 20px;
+    text-align: center;
+    width: 20px;
+}
+
+.sequencerPosition {
+    background: url(/img/sequence-lights.png) no-repeat scroll center -8px transparent;
+    float: left;
+    height: 8px;
+    width: 24px;
+}
+
+.sequencerPositionOn {
+    background-position: center 0 !important;
+}
+
+.noteButtonBase {
+	width: 24px;
+	height: 20px;
+	text-align: center;
+}
+
+.noteButtonBold {
+    font-weight: bold;
+}
+
+.noteButtonInfo {
+	display: inline-block; 
+	cursor: default; 
+}
+
+.noteButtonInfoDim {
+    color: lightgrey;
+}
+
+.noteButtonLetter {
+	border: 1px solid lightgrey;
+	display: inline-block; 
+}
+
+.noteButtonToneOff {
+	background: url(/img/noteToneOff.png) no-repeat, url(/img/noteSpacer.png) repeat;
+}
+
+.noteButtonToneOn {
+	background: url(/img/noteToneOn.png) no-repeat, transparent url(/img/noteSpacer.png) repeat;
+}
+
+.noteButtonToneFlam {
+	background: url(/img/noteToneFlam.png) no-repeat, url(/img/noteSpacer.png) repeat;
+}
+.noteButtonSlapOff {
+	background: transparent url(/img/noteSlapOff.png) no-repeat;
+}
+
+.noteButtonSlapOn {
+	background: transparent url(/img/noteSlapOn.png) no-repeat;
+}
+
+.noteButtonSlapFlam {
+	background: transparent url(/img/noteSlapFlam.png) no-repeat;
+}
+
+.noteButtonBassOff {
+	background: transparent url(/img/noteBassOff.png) no-repeat;
+}
+
+.noteButtonBassOn {
+	background: transparent url(/img/noteBassOn.png) no-repeat;
+}
+
+.noteButtonBassFlam {
+	background: transparent url(/img/noteBassFlam.png) no-repeat;
+}
+
+.print .x-html-editor-tb {
+	display: none;
+}
+
+.thumb-wrap {
+	display: inline-block;
+    border: 1px solid #DDDDDD;
+    margin: 3px;
+    padding: 3px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
+}
+
